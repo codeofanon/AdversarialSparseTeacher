@@ -1,0 +1,14 @@
+{
+    "model_name": "resnet18",
+
+    "batch_size": 128,
+    "num_workers": 4,
+    "cuda": 1,
+    "augmentation":0,
+
+    "dataset": "cifar10",
+
+    "base_model": "experiments/CIFAR10/baseline/resnet18/best_model.tar"
+
+}
+
